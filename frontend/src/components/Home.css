@@ -1,0 +1,70 @@
+/* Home.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-login {
+    margin-left: auto;
+}
+
+.login-button {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: white;
+    color: #333;
+}
+
+.content {
+    padding: 20px;
+}
+
+.slideshow {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .slideshow img {
+    width: 100%;
+    height: auto;
+  }
+  
